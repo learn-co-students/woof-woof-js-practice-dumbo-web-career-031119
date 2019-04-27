@@ -86,7 +86,7 @@ const filterWoofers = () => {
 
     loadDogs()
 }
-
+console.log(filterWoofers())
 dogBar.addEventListener('click', displayDoggo)
 dogInfo.addEventListener('click', toggleGoodness)
 dogFilter.addEventListener('click', filterWoofers)
